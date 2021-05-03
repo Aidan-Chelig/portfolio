@@ -2,7 +2,7 @@ name: portfolio
 services:
 - dockerfile_path: Dockerfile
   github:
-    branch: main
+    branch: aidan
     deploy_on_push: true
     repo: Aidan-Chelig/portfolio
   http_port: 80
