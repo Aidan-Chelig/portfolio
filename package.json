@@ -10,10 +10,14 @@
   "license": "MIT",
   "workspaces": [
     "webgl",
-    "frontend"
+    "frontend",
+    "ssr"
   ],
   "scripts": {
     "serve": "yarn workspace @portfolio/webgl build && yarn workspace @portfolio/frontend serve",
     "build": "yarn workspaces foreach run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
   }
 }
