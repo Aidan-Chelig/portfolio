@@ -50,6 +50,8 @@
     }
 
     .footer {
+      position: sticky;
+      bottom: 0;
       align-items: center;
       background-color: rgba(50, 50, 50, 0.4);
       box-sizing: border-box;
