@@ -53,7 +53,7 @@
       position: sticky;
       bottom: 0;
       align-items: center;
-      background-color: rgba(50, 50, 50, 0.4);
+      background-color: rgba(40, 40, 40, 0.95);
       box-sizing: border-box;
       color: white;
       display: flex;
